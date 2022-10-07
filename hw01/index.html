@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pulls
+Issues
+Marketplace
+Explore
+ 
+@t10959005 
+NTUT-CG-Lab
+/
+ca2022f-hw-LINlisen
+Public
+generated from tjhsieh/ca2022f
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+ca2022f-hw-LINlisen/hw01/index.html
+@LINlisen
+LINlisen add button
+Latest commit 07d116b 7 days ago
+ History
+ 2 contributors
+@LINlisen@github-classroom
+316 lines (262 sloc)  7.67 KB
+
 <!doctype html>
 <html lang="zh-Hant-TW">
 <head>
@@ -199,7 +228,6 @@
     </div>
   </div>
 
-
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
@@ -211,7 +239,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      55555555555555555555555555555555555555555555555555555555555555555555
     </div>
   </div>
 
@@ -227,19 +255,19 @@
         </tr>
         <tr>
           <td rowspan="7" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>2</td>
-          <td>Simple baseline - 下載 CubismWebSamples</td>
+          <td>下載 CubismWebSamples</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>6</td>
-          <td>Medium baseline - 編譯執行 </td>
+          <td>編譯執行 CubismWebSamples</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 更換 Cubism 人物模型、發佈網頁 </td>
+          <td>更換其他 Cubism 人物模型、錄製1920×1080影片(滑鼠跟隨)、發佈網頁</td>
         </tr>
       </table>
     </div>
@@ -249,7 +277,7 @@
   <div class="row hw12">
     <div class="col-md-12 twenty">
       <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <source src="./hw01.mp4" type="video/mp4">
       </video>
     </div>
   </div>
@@ -293,9 +321,39 @@
       score += parseInt(d3.select('#m3').html());   
     }
 
+    if (d3.select("#myCheckbox4").property("checked")){
+      score += parseInt(d3.select('#m4').html());   
+    }
+
+    if (d3.select("#myCheckbox5").property("checked")){
+      score += parseInt(d3.select('#m5').html());   
+    }
+
+    if (d3.select("#myCheckbox6").property("checked")){
+      score += parseInt(d3.select('#m6').html());   
+    }
+
+    if (d3.select("#myCheckbox7").property("checked")){
+      score += parseInt(d3.select('#m7').html());   
+    }
+
     d3.select("#myTotal").html(score);    
   }
 </script>
 
 </body>
 </html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
